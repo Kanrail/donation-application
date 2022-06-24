@@ -29,11 +29,10 @@ const DonationGiftForm = (props) => {
                     }}
                     validationSchema={getSchema()}
                     onSubmit={(values) => {
-                        {/* Calls to APIs should go here */}
-                        console.log('Sending shipping details to vendor')
                         values.email = props.email;
                         values.donationAmount = props.donationAmount;
 
+                        {/* Calls to APIs should go here */}
                         console.log('Sending to Vendor API')
                         console.log(values)
 

@@ -18,9 +18,9 @@ Comment marking place to put API call to send donation details to payment proces
 
 ### Gift Form (DonationGiftForm.js)
 
-Comment marking place to put API call to send shipping details to gift vendor (line 37 in Formik constructor's onSubmit).
+Comment marking place to put API call to send shipping details to gift vendor (line 36 in Formik constructor's onSubmit).
 
-Comment marking place to put API call to send call to internal donation tracker (line 40 in Formik constructor's onSubmit).
+Comment marking place to put API call to send call to internal donation tracker (line 39 in Formik constructor's onSubmit).
 
 ### Donation Information (DonationInformation.js)
 
